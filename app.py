@@ -1,6 +1,8 @@
-edad = 15
-
-if edad >= 18:
-    print("Eres mayor de edad.")
+calificacion = 5
+if calificacion >= 9:
+    print("Excelente")
+elif calificacion >= 7:
+    print("Bueno")
 else:
-    print("Eres menor de edad.")
+    print("Reprobado")
+
