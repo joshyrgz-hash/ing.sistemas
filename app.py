@@ -1,10 +1,6 @@
-nombre = "Joshy"
-edad = 25
-promedio = 9.5
-es_estudiante = True
+edad = 15
 
-print (f"Hola {nombre}")
-print (f"Su edad es: {edad}")
-print (f"Eres estudiante: {es_estudiante}")
-
-
+if edad >= 18:
+    print("Eres mayor de edad.")
+else:
+    print("Eres menor de edad.")
